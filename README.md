@@ -152,4 +152,5 @@ This is achieved by creating two nodes and two topics:
     ros2 launch pennair_app_launch.py
   ```
 ### Result
+Turn up the video quality if needed. sowwwwyy...
 [![Watch the video](https://youtube.com)](https://youtu.be/10L5VU3jDGk)
