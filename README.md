@@ -19,7 +19,7 @@ The solution algorithm features the following process:
 - `PennAir 2024 App Static.png`
 
 ### How to Run
-1. Obtain the two related files
+1. Obtain the two related files from the `detection` folder of the repo
 2. Put the two files in the same directory in an IDE like VSCode or PyCharm
 3. Run the Python file with the play button or right-click on the Python file and select the run option
 
@@ -103,7 +103,7 @@ This was achieved by deriving the relationship between the real-world units and 
 ## Part V
 
 ### Description
-The goal of Part V is to host the detection system on `ROS2`. 
+The goal of Part V is to host the detection system on `ROS2`. `pennair_app` folder is the `ROS2` package folder created for this part of the challenge.
 
 This is achieved by creating two nodes and two topics: 
 - The first node (`stream_video_node`) is responsible for chopping the video into frames and then publishing the frames to the `video_frames` topic.
